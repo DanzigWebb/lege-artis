@@ -1,8 +1,8 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet');
-@import url(/mmenu/dist/jquery.mmenu.all.css);
-@import url(/assets/owl-carusel/owl.carousel.min.css);
-@import url(/assets/owl-carusel/owl.theme.default.min.css);
+@import url(mmenu/dist/jquery.mmenu.all.css);
+@import url(assets/owl-carusel/owl.carousel.min.css);
+@import url(assets/owl-carusel/owl.theme.default.min.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -321,7 +321,7 @@ a {
 
 .btn-icon-left:before {
   content: "";
-  background-image: url(../assets/img/pen-record.png);
+  background-image: url(assets/img/pen-record.png);
   height: 25px;
   width: 25px;
   background-repeat: no-repeat;
@@ -347,19 +347,19 @@ a {
 @font-face {
   font-family: 'MyGothamPro';
   font-weight: 500;
-  src: url(/assets/fonts/GothamPro-Medium.ttf); }
+  src: url(assets/fonts/GothamPro-Medium.ttf); }
 @font-face {
   font-family: 'MyGothamPro';
   font-weight: 800;
-  src: url(/assets/fonts/GothamPro-Black.ttf); }
+  src: url(assets/fonts/GothamPro-Black.ttf); }
 @font-face {
   font-family: 'MyGothamPro';
   font-weight: 700;
-  src: url(/assets/fonts/GothamPro-Bold.ttf); }
+  src: url(assets/fonts/GothamPro-Bold.ttf); }
 @font-face {
   font-family: 'MyGothamPro';
   font-weight: 400;
-  src: url(/assets/fonts/GothamPro.ttf); }
+  src: url(assets/fonts/GothamPro.ttf); }
 .top-header {
   height: 60px;
   line-height: 1.2;
@@ -476,7 +476,7 @@ a {
 
 .headmiddle-geo__link:before {
   content: "";
-  background-image: url(../assets/img/3d-tur.png);
+  background-image: url(assets/img/3d-tur.png);
   height: 8px;
   width: 17px;
   background-repeat: no-repeat;
@@ -901,7 +901,7 @@ header .hamburger {
 
 .main-slider-imgbox__motivation:before {
   content: "";
-  background-image: url(../assets/img/motivation.png);
+  background-image: url(assets/img/motivation.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 30px;
@@ -1037,7 +1037,7 @@ header .hamburger {
 
 .direction-item__title--arrow-right:before {
   content: "";
-  background-image: url(../assets/img/direction.png);
+  background-image: url(assets/img/direction.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 30px;
@@ -1048,7 +1048,7 @@ header .hamburger {
 
 .direction-item__title--arrow-left:before {
   content: "";
-  background-image: url(../assets/img/direction.png);
+  background-image: url(assets/img/direction.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 30px;
@@ -1062,22 +1062,22 @@ header .hamburger {
   .direction-item {
     width: 98%; } }
 .item1 {
-  background-image: url(/assets/img/item1.png); }
+  background-image: url(assets/img/item1.png); }
 
 .item2 {
-  background-image: url(/assets/img/item2.png); }
+  background-image: url(assets/img/item2.png); }
 
 .item3 {
-  background-image: url(/assets/img/item3.png); }
+  background-image: url(assets/img/item3.png); }
 
 .item4 {
-  background-image: url(/assets/img/item4.png); }
+  background-image: url(assets/img/item4.png); }
 
 .item5 {
-  background-image: url(/assets/img/item5.png); }
+  background-image: url(assets/img/item5.png); }
 
 .item6 {
-  background-image: url(/assets/img/item6.png); }
+  background-image: url(assets/img/item6.png); }
 
 .consult-box--white {
   background-color: #fff;
@@ -1122,7 +1122,7 @@ header .hamburger {
   justify-content: space-between;
   align-items: center;
   padding: 0 160px;
-  background-image: url(/assets/img/action-sign-up.png);
+  background-image: url(assets/img/action-sign-up.png);
   background-size: cover;
   outline: 1px rgba(242, 242, 242, 0.2) solid;
   outline-offset: -25px; }
@@ -1179,7 +1179,7 @@ header .hamburger {
     min-width: 200px; } }
 .children {
   height: auto;
-  background-image: url(/assets/img/children-bg.png);
+  background-image: url(assets/img/children-bg.png);
   background-size: cover;
   overflow: hidden; }
 
@@ -1391,16 +1391,16 @@ header .hamburger {
   margin-top: 20px; }
 
 .doctors__photo--doc1 {
-  background-image: url(/assets/img/doc1.png); }
+  background-image: url(assets/img/doc1.png); }
 
 .doctors__photo--doc2 {
-  background-image: url(/assets/img/doc2.png); }
+  background-image: url(assets/img/doc2.png); }
 
 .doctors__photo--doc3 {
-  background-image: url(/assets/img/doc3.png); }
+  background-image: url(assets/img/doc3.png); }
 
 .doctors__photo--doc4 {
-  background-image: url(/assets/img/doc4.png); }
+  background-image: url(assets/img/doc4.png); }
 
 .hospital {
   padding-top: 70px;
@@ -1422,7 +1422,7 @@ header .hamburger {
 
 .hospital-content__pic {
   padding: 10px;
-  background-image: url(/assets/img/hospital-img.png);
+  background-image: url(assets/img/hospital-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 510px; }
