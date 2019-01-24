@@ -1402,6 +1402,13 @@ header .hamburger {
 .doctors__photo--doc4 {
   background-image: url(img/doc4.png); }
 
+@media (max-width: 456px)
+  .doctors-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
 .hospital {
   padding-top: 70px;
   position: relative;
