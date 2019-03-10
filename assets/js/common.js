@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 $('.one-time').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
@@ -14,11 +14,12 @@ $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
+    dots:false,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false
         },
         600:{
           items:2,
@@ -30,7 +31,7 @@ $(document).ready(function(){
         },
         1070:{
             items:4,
-            nav:true,
+            nav:false,
             loop:false
         }
     }
