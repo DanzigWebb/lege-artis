@@ -36,37 +36,3 @@ $(document).ready(function(){
     }
 })
 });
-
-$(document).ready(function() {
-  $("#my-menu").mmenu({
-    extensions: [ 'effect-menu-slide', "fx-listitems-fade", 'position-right' ],
-    navbar: {
-      title: 'ЛЕГЕ АРТИС'
-    },
-    "counters": true,
-               "iconbar": {
-                  "add": true,
-                  "top": [
-                     "<a href='/'><i class='fa fa-home'></i></a>",
-                  ],
-                  "bottom": [
-                     "<a href='#/' target='_blank'><i class='fab fa-vk'></i></a>",
-                     "<a href='#/'><i class='fab fa-facebook-f'></i></a>",
-                     "<a href='#/' target='_blank'><i class='fab fa-instagram'</i></a>"
-                  ],
-                }
-  }, {
-     // configuration
-     offCanvas: {
-        pageSelector: "#my-page"
-     }
-  });
-
-  var api = $('#my-menu').data('mmenu');
-  api.bind('open:start', function() {
-    $('.hamburger').addClass('is-active');
-  });
-  api.bind('close:before', function() {
-    $('.hamburger').removeClass('is-active');
-    })
- });
