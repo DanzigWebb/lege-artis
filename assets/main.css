@@ -589,7 +589,10 @@ header .hamburger {
     justify-items: flex-start; }
 
   .main-btn {
-    margin-right: 40px; } }
+    margin-right: 40px;
+    display: block;
+    margin-bottom: 25px;
+  } }
 @media (max-width: 540px) {
   .headmiddle__graph {
     display: none; }
